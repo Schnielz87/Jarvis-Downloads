@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "name": "jarvis-design-tokens",
+  "version": "1.1.1",
+  "source": {
+    "dashboard": "Schnielz87/Jarvis-Action-Core:deploy/hermes/jarvis-hud/dashboard/dist/style.css",
+    "dashboardCommit": "f412c2f42a6593d0ea15f43da93a533d233a0b40"
+  },
+  "color": {
+    "accent": {
+      "value": "#00E5FF",
+      "css": "#00e5ff"
+    },
+    "accentSoft": {
+      "value": "#8CEEFF",
+      "css": "#8ceeff"
+    },
+    "accentDeep": {
+      "value": "#0081FF",
+      "css": "rgba(0,129,255"
+    },
+    "text": {
+      "value": "#B9F7FF",
+      "css": "#b9f7ff"
+    },
+    "textStrong": {
+      "value": "#C8F9FF",
+      "css": "#c8f9ff"
+    },
+    "textNeutral": {
+      "value": "#A9EEFF",
+      "css": "#a9eeff"
+    },
+    "background": {
+      "value": "#010509",
+      "css": "rgba(1,5,9,.99)"
+    },
+    "surface": {
+      "value": "#04151F",
+      "css": "rgba(4,21,31,.93)"
+    },
+    "surfaceAlt": {
+      "value": "#020C13",
+      "css": "rgba(2,12,19,.80)"
+    },
+    "border": {
+      "value": "#00E5FF47",
+      "css": "rgba(0,229,255,.28)"
+    },
+    "ok": {
+      "value": "#35FFB0",
+      "css": "#35ffb0"
+    },
+    "okText": {
+      "value": "#79F4D0",
+      "css": "#79f4d0"
+    },
+    "warn": {
+      "value": "#FFC65B",
+      "css": "#ffc65b"
+    },
+    "warnText": {
+      "value": "#FFD58A",
+      "css": "#ffd58a"
+    },
+    "danger": {
+      "value": "#FF6174",
+      "css": "#ff6174"
+    },
+    "dangerText": {
+      "value": "#FF8796",
+      "css": "#ff8796"
+    }
+  },
+  "typography": {
+    "kickerSize": 11,
+    "kickerTrackingEm": 0.24,
+    "titleSize": 25,
+    "titleTrackingEm": 0.12,
+    "cardTitleSize": 11,
+    "cardTitleTrackingEm": 0.15,
+    "valueSize": 25,
+    "bodySize": 12,
+    "panelHeadSize": 12,
+    "panelHeadTrackingEm": 0.18
+  },
+  "spacing": {
+    "page": 22,
+    "gap": 12,
+    "card": 15,
+    "panel": 17
+  },
+  "shape": {
+    "cornerRadius": 0,
+    "mobileCornerRadius": 18
+  },
+  "layout": {
+    "homeModules": [
+      "status",
+      "approvals",
+      "agents",
+      "tasks"
+    ]
+  },
+  "locked": [
+    "color.warn",
+    "color.warnText",
+    "color.danger",
+    "color.dangerText",
+    "layout.homeModules.approvals"
+  ]
+}
